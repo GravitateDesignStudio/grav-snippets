@@ -1,0 +1,43 @@
+# Sass Snippets
+'.source.scss':
+  'Media Min':
+    'prefix': 'mediaMin'
+    'body': '@include media-min(${1:\$medium}){\n    ${2:}\n}'
+  'Media Max':
+    'prefix': 'mediaMax'
+    'body': '@include media-max(${1:\$medium}){\n    ${2:}\n}'
+  'Comment':
+    'prefix': 'cmnt'
+    'body': '
+    /*************************************
+    \n
+    ${1:}
+    \n
+    **************************************/'
+
+# PHP Snippets
+".source.php":
+    "ACF Register Field":
+        "prefix": "acf_group_register"
+        "body": "acf_add_local_field_group(array (\n    'key' => 'group_${1:group_key}',\n    'title' => '${2:group_title}',\n    'fields' => array (\n        ${3:fields}\n    ),\n    'location' => array (\n        array (\n            array (\n                'param' => 'post_type', // post_type | post | page | page_template | post_category | taxonomy | options_page\n                'operator' => '==',\n                'value' => 'post',		// if options_page then use: acf-options  | if page_template then use:  template-example.php\n                'order_no' => 0,\n                'group_no' => 1,\n            ),\n        ),\n    ),\n    'menu_order' => 0,\n    'position' => 'normal', 				// side | normal | acf_after_title\n    'style' => 'default',					// default | seamless\n    'label_placement' => 'top',				// top | left\n    'instruction_placement' => 'label', 	// label | field\n    'hide_on_screen' => array (\n      //	0 => 'permalink',\n      //	1 => 'the_content',\n      //	2 => 'excerpt',\n      //	3 => 'custom_fields',\n      //	4 => 'discussion',\n      //	5 => 'comments',\n      //	6 => 'revisions',\n      //	7 => 'slug',\n      //	8 => 'author',\n      //	9 => 'format',\n      //	10 => 'featured_image',\n      //	11 => 'categories',\n      //	12 => 'tags',\n      //	13 => 'send-trackbacks',\n    ),\n    'active' => 1,\n    'description' => '',\n));"
+    "ACF Image Field":
+        "prefix": "acf_field_image"
+        "body": "array ( \n    'key' => 'field_'.$field.'_${2:field_name}',\n    'label' => '${3:field_label}',\n    'name' => '${2:field_name}',\n    'instructions' => '',\n    'type' => 'image',\n    'required' => 0,\n    'conditional_logic' => 0,\n    'wrapper' => array (\n        'width' => '',\n        'class' => '',\n        'id' => '',\n    ),\n    'return_format' => 'object',       // array | url | id\n    'preview_size' => 'medium',\n    'library' => 'all',       // all | uploadedTo\n    'min_width' => '',\n    'min_height' => '',\n    'min_size' => '',\n    'max_width' => '',\n    'max_height' => '',\n    'max_size' => '',\n    'mime_types' => '',\n),"
+    "ACF Text Field":
+        "prefix": "acf_field_text"
+        "body": "array ( \n    'key' => 'field_'.$field.'_${2:field_name}',\n    'label' => '${3:field_label}',\n    'name' => '${2:field_name}',\n    'type' => 'text',\n    'instructions' => '',\n    'required' => 0,\n    'conditional_logic' => 0,\n    'wrapper' => array (\n        'width' => '',\n        'class' => '',\n        'id' => '',\n    ),\n    'default_value' => '',\n    'placeholder' => '',\n    'formatting' => 'none',       // none | html\n    'prepend' => '',\n    'append' => '',\n    'maxlength' => '',\n    'readonly' => 0,\n    'disabled' => 0,\n),"
+    "ACF Radio Field":
+        "prefix": "acf_field_radio"
+        "body": "array (\n    'key' => 'field_'.$field.'_${1:field_name}',\n    'label' => '${2:field_label}',\n    'name' => '${1:field_name}',\n    'type' => 'radio',\n    'instructions' => '',\n    'required' => 0,\n    'conditional_logic' => 0,\n    'wrapper' => array (\n        'width' => '',\n        'class' => '',\n        'id' => '',\n    ),\n    'choices' => array (\n        ${3:radio_choices}\n    ),\n    'other_choice' => 0,\n    'save_other_choice' => 0,\n    'default_value' => '',\n    'layout' => 'horizontal',       // vertical | horizontal\n),"
+    "ACF Relationship Field":
+        "prefix": "acf_field_relationship"
+        "body": "array (\n    'key' => 'field_'.$field.'_${1:field_name}',\n    'label' => '${2:field_label}',\n    'name' => '${1:field_name}',\n    'type' => 'relationship',\n    'instructions' => '',\n    'required' => 0,\n    'conditional_logic' => 0,\n    'wrapper' => array (\n        'width' => '',\n        'class' => '',\n        'id' => '',\n    ),\n    'post_type' => array (\n    ),\n    'taxonomy' => array (\n    ),\n    'filters' => array (\n        0 => 'search',\n        1 => 'post_type',\n        2 => 'taxonomy',\n    ),\n    'elements' => '',\n    'min' => '',\n    'max' => '',\n    'return_format' => 'id',     // object | id\n),"
+    "ACF File Field":
+        "prefix": "acf_field_file"
+        "body": "array (\n    'key' => 'field_'.$field.'_${1:field_name}',\n    'label' => '${2:field_label}',\n    'name' => '${1:field_name}',\n    'type' => 'file',\n    'instructions' => '',\n    'required' => 0,\n    'conditional_logic' => 0,\n    'wrapper' => array (\n        'width' => '',\n        'class' => '',\n        'id' => '',\n    ),\n    'return_format' => 'array',      // array | url | id\n    'library' => 'all',              // all | uploadedTo\n    'min_size' => '',\n    'max_size' => '',\n    'mime_types' => '',\n),"
+    "ACF Repeater Field":
+        "prefix": "acf_field_repeater"
+        "body": "array (\n    'key' => 'field_'.$field.'_${1:field_name}',\n    'label' => '${2:field_label}',\n    'name' => '${1:field_name}',\n    'type' => 'repeater',\n    'instructions' => '',\n    'required' => 0,\n    'conditional_logic' => 0,\n    'wrapper' => array (\n        'width' => '',\n        'class' => '',\n        'id' => '',\n    ),\n    'collapsed' => '',\n    'min' => '',\n    'max' => '',\n    'layout' => 'table',         // table | block | row\n    'button_label' => '${3:add_row_field}',\n    'sub_fields' => array (\n        ${4:additional_fields}\n    ),\n),"
+    "ACF Page Link Field":
+        "prefix": "acf_field_page_link"
+        "body": "array (\n    'key' => 'field_'.$field.'_${1:field_name}',\n    'label' => '${2:field_label}',\n    'name' => '${1:field_name}',\n    'type' => 'page_link',\n    'instructions' => '',\n    'required' => 0,\n    'conditional_logic' => 0,\n    'wrapper' => array (\n        'width' => '',\n        'class' => '',\n        'id' => '',\n    ),\n    'post_type' => array (\n    ),\n    'taxonomy' => array (\n    ),\n    'allow_null' => 0,\n    'multiple' => 0,\n),"

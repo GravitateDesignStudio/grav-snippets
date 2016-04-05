@@ -2,11 +2,8 @@
   "name": "gravitate-snippets",
   "main": "./lib/gravitate-snippets",
   "version": "0.1.0",
-  "description": "A short description of your package",
+  "description": "A set of snippets for multiple languages created by the Gravitate development team for use with the Atom editor.",
   "keywords": [],
-  "activationCommands": {
-    "atom-workspace": "gravitate-snippets:toggle"
-  },
   "repository": "https://github.com/GravitateDesignStudio/grav-snippets",
   "license": "MIT",
   "engines": {

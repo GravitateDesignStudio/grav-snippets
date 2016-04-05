@@ -1,5 +1,3 @@
 # gravitate-snippets package
 
-A short description of your package.
-
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+A set of snippets for multiple languages created by the <a href="http://www.gravitatedesign.com">Gravitate development</a> team for use with the Atom editor.
