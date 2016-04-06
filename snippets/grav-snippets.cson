@@ -32,9 +32,12 @@
     "ACF WYSIWYG Field":
         "prefix": "acf_field_wysiwyg"
         "body": "array (\n    'key' => 'field_'.$field.'_${1:field_name}',\n    'label' => '${2:field_label}',\n    'name' => '${1:field_name}',\n    'type' => 'wysiwyg',\n    'instructions' => '',\n    'required' => 0,\n    'conditional_logic' => 0,\n    'wrapper' => array (\n        'width' => '',\n        'class' => '',\n        'id' => '',\n    ),\n    'default_value' => '',\n    'tabs' => 'all',         // all | visual | text\n    'toolbar' => 'full',     // full | basic\n    'media_upload' => 1,\n),"
-    "ACF Radio Field":
-        "prefix": "acf_field_radio"
-        "body": "array (\n    'key' => 'field_'.$field.'_${1:field_name}',\n    'label' => '${2:field_label}',\n    'name' => '${1:field_name}',\n    'type' => 'radio',\n    'instructions' => '',\n    'required' => 0,\n    'conditional_logic' => 0,\n    'wrapper' => array (\n        'width' => '',\n        'class' => '',\n        'id' => '',\n    ),\n    'choices' => array (\n        ${3:radio_choices}\n    ),\n    'other_choice' => 0,\n    'save_other_choice' => 0,\n    'default_value' => '',\n    'layout' => 'horizontal',       // vertical | horizontal\n),"
+    "ACF Radio Button Field":
+        "prefix": "acf_field_radio_button"
+        "body": "array (\n    'key' => 'field_'.$field.'_${1:field_name}',\n    'label' => '${2:field_label}',\n    'name' => '${1:field_name}',\n    'type' => 'radio',\n    'instructions' => '',\n    'required' => 0,\n    'conditional_logic' => 0,\n    'wrapper' => array (\n        'width' => '',\n        'class' => '',\n        'id' => '',\n    ),\n    'choices' => array (\n        ${3:choices}\n    ),\n    'other_choice' => 0,\n    'save_other_choice' => 0,\n    'default_value' => '',\n    'layout' => 'horizontal',\n),"
+    "ACF Checkbox Field":
+        "prefix": "acf_field_checkbox"
+        "body": "array (\n    'key' => 'field_'.$field.'_${1:field_name}',\n    'label' => '${2:field_label}',\n    'name' => '${1:field_name}',\n    'type' => 'checkbox',\n    'instructions' => '',\n    'required' => 0,\n    'conditional_logic' => 0,\n    'wrapper' => array (\n        'width' => '',\n        'class' => '',\n        'id' => '',\n    ),\n    'choices' => array (\n        ${3:choices}\n    ),\n    'default_value' => array (\n    ),\n    'layout' => 'horizontal',\n    'toggle' => 0,\n),"
     "ACF Relationship Field":
         "prefix": "acf_field_relationship"
         "body": "array (\n    'key' => 'field_'.$field.'_${1:field_name}',\n    'label' => '${2:field_label}',\n    'name' => '${1:field_name}',\n    'type' => 'relationship',\n    'instructions' => '',\n    'required' => 0,\n    'conditional_logic' => 0,\n    'wrapper' => array (\n        'width' => '',\n        'class' => '',\n        'id' => '',\n    ),\n    'post_type' => array (\n    ),\n    'taxonomy' => array (\n    ),\n    'filters' => array (\n        0 => 'search',\n        1 => 'post_type',\n        2 => 'taxonomy',\n    ),\n    'elements' => '',\n    'min' => '',\n    'max' => '',\n    'return_format' => 'id',     // object | id\n),"
@@ -47,27 +50,9 @@
     "ACF Page Link Field":
         "prefix": "acf_field_page_link"
         "body": "array (\n    'key' => 'field_'.$field.'_${1:field_name}',\n    'label' => '${2:field_label}',\n    'name' => '${1:field_name}',\n    'type' => 'page_link',\n    'instructions' => '',\n    'required' => 0,\n    'conditional_logic' => 0,\n    'wrapper' => array (\n        'width' => '',\n        'class' => '',\n        'id' => '',\n    ),\n    'post_type' => array (\n    ),\n    'taxonomy' => array (\n    ),\n    'allow_null' => 0,\n    'multiple' => 0,\n),"
-    "ACF Radio Button Field":
-        "prefix": "acf_field_radio_button"
-        "body": "array (\n    'key' => 'field_'.$field.'_${1:field_name}',\n    'label' => '${2:field_label}',\n    'name' => '${1:field_name}',\n    'type' => 'radio',\n    'instructions' => '',\n    'required' => 0,\n    'conditional_logic' => 0,\n    'wrapper' => array (\n        'width' => '',\n        'class' => '',\n        'id' => '',\n    ),\n    'choices' => array (\n        ${3:choices}\n    ),\n    'other_choice' => 0,\n    'save_other_choice' => 0,\n    'default_value' => '',\n    'layout' => 'horizontal',\n),"
-    "ACF Checkbox Field":
-        "prefix": "acf_field_checkbox"
-        "body": "array (\n    'key' => 'field_'.$field.'_${1:field_name}',\n    'label' => '${2:field_label}',\n    'name' => '${1:field_name}',\n    'type' => 'checkbox',\n    'instructions' => '',\n    'required' => 0,\n    'conditional_logic' => 0,\n    'wrapper' => array (\n        'width' => '',\n        'class' => '',\n        'id' => '',\n    ),\n    'choices' => array (\n        ${3:choices}\n    ),\n    'default_value' => array (\n    ),\n    'layout' => 'horizontal',\n    'toggle' => 0,\n),"
-    "ACF Select Field":
-        "prefix": "acf_field_select"
-        "body": "array (\n    'key' => 'field_'.$field.'_${1:field_name}',\n    'label' => '${2:field_label}',\n    'name' => '${1:field_name}',\n    'type' => 'select',\n    'instructions' => '',\n    'required' => 0,\n    'conditional_logic' => 0,\n    'wrapper' => array (\n        'width' => '',\n        'class' => '',\n        'id' => '',\n    ),\n    'choices' => array (\n        ${3:choices}\n    ),\n    'default_value' => array (\n    ),\n    'allow_null' => 0,\n    'multiple' => 0,         // allows for multi-select\n    'ui' => 0,               // creates a more stylized UI\n    'ajax' => 0,\n    'placeholder' => '',\n    'disabled' => 0,\n    'readonly' => 0,\n),"
     "ACF Tab Field":
         "prefix": "acf_field_tab"
         "body": "array (\n    'key' => 'field_'.$field.'_${1:field_name}',\n    'label' => '${2:field_label}',\n    'name' => '${1:field_name}',\n    'type' => 'tab',\n    'instructions' => '',\n    'required' => 0,\n    'conditional_logic' => 0,\n    'wrapper' => array (\n        'width' => '',\n        'class' => '',\n        'id' => '',\n    ),\n    'placement' => 'top',\n    'endpoint' => 0,          // end tabs to start a new group\n),"
-    "ACF Post Object Field"
-        "prefix": "acf_field_post_obect"
-        "body": "array (\n    'key' => 'field_'.$field.'_${1:field_name}',\n    'label' => '${2:field_label}',\n    'name' => '${1:field_name}',\n    'type' => 'post_object',\n    'instructions' => '',\n    'required' => 0,\n    'conditional_logic' => 0,\n    'wrapper' => array (\n        'width' => '',\n        'class' => '',\n        'id' => '',\n    ),\n    'post_type' => array (\n    ),\n    'taxonomy' => array (\n    ),\n    'allow_null' => 0,\n    'multiple' => 0,\n    'return_format' => 'id',     // object | id\n    'ui' => 1,\n),"
-    "ACF User Field"
-        "prefix": "acf_field_user"
-        "body": "array (\n    'key' => 'field_'.$field.'_${1:field_name}',\n    'label' => '${2:field_label}',\n    'name' => '${1:field_name}',\n    'type' => 'user',\n    'instructions' => '',\n    'required' => 0,\n    'conditional_logic' => 0,\n    'wrapper' => array (\n        'width' => '',\n        'class' => '',\n        'id' => '',\n    ),\n    'role' => '',            // takes array such as array(0 => 'administrator')\n    'allow_null' => 0,\n    'multiple' => 0,\n),"
-    "ACF True/False Field"
-        "prefix": "acf_field_true_false"
-        "body": "array (\n   'key' => 'field_'.$field.'_${1:field_name}',\n   'label' => '${2:field_label}',\n   'name' => '${1:field_name}',\n   'type' => 'true_false',\n   'instructions' => '',\n   'required' => 0,\n   'conditional_logic' => 0,\n   'wrapper' => array (\n       'width' => '',\n       'class' => '',\n       'id' => '',\n   ),\n   'message' => '',\n   'default_value' => 0,\n),"
-    "ACF Date Picker Field"
-        "prefix": "acf_field_date"
-        "body": "array (\n   'key' => 'field_'.$field.'_${1:field_name}',\n   'label' => '${2:field_label}',\n   'name' => '${1:field_name}',\n   'type' => 'date_picker',\n   'instructions' => '',\n   'required' => 0,\n   'conditional_logic' => 0,\n   'wrapper' => array (\n       'width' => '',\n       'class' => '',\n       'id' => '',\n   ),\n   'display_format' => 'dd/mm/yy',\n   'return_format' => 'yymmdd',\n   'first_day' => 0,            // 0 = Sunday, 1 = Monday Etc.\n),"
+    "ACF Select Field":
+        "prefix": "acf_field_select"
+        "body": "array (\n    'key' => 'field_'.$field.'_${1:field_name}',\n    'label' => '${2:field_label}',\n    'name' => '${1:field_name}',\n    'type' => 'select',\n    'instructions' => '',\n    'required' => 0,\n    'conditional_logic' => 0,\n    'wrapper' => array (\n        'width' => '',\n        'class' => '',\n        'id' => '',\n    ),\n    'choices' => array (\n        ${3:choices}\n    ),\n    'default_value' => array (\n    ),\n    'allow_null' => 0,\n    'multiple' => 0,         // allows for multi-select\n    'ui' => 0,               // creates a more stylized UI\n    'ajax' => 0,\n    'placeholder' => '',\n    'disabled' => 0,\n    'readonly' => 0,\n),"
