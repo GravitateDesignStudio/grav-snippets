@@ -62,21 +62,21 @@
     "ACF User Field":
         "prefix": "acf_field_user"
         "body": "array (\n    'key' => 'field_'.$acf_group.'_${1:field_name}',\n    'label' => '${2:field_label}',\n    'name' => '${1:field_name}',\n    'type' => 'user',\n    'instructions' => '',\n    'required' => 0,\n    'conditional_logic' => 0,\n    'wrapper' => array (\n        'width' => '',\n        'class' => '',\n        'id' => '',\n    ),\n    'role' => '',            // takes array such as array (0 => 'administrator')\n    'allow_null' => 0,\n    'multiple' => 0,\n),"
-    "ACF Date Picker Field":
+    "ACF Date Field":
         "prefix": "acf_field_date"
         "body": "array (\n   'key' => 'field_'.$acf_group.'_${1:field_name}',\n   'label' => '${2:field_label}',\n   'name' => '${1:field_name}',\n   'type' => 'date_picker',\n   'instructions' => '',\n   'required' => 0,\n   'conditional_logic' => 0,\n   'wrapper' => array (\n       'width' => '',\n       'class' => '',\n       'id' => '',\n   ),\n   'display_format' => 'dd/mm/yy',\n   'return_format' => 'yymmdd',\n   'first_day' => 0,            // 0 = Sunday, 1 = Monday Etc.\n),"
     "ACF True False Field":
         "prefix": "acf_field_true_false"
         "body": "array (\n   'key' => 'field_'.$acf_group.'_${1:field_name}',\n   'label' => '${2:field_label}',\n   'name' => '${1:field_name}',\n   'type' => 'true_false',\n   'instructions' => '',\n   'required' => 0,\n   'conditional_logic' => 0,\n   'wrapper' => array (\n       'width' => '',\n       'class' => '',\n       'id' => '',\n   ),\n   'message' => '',\n   'default_value' => 0,\n),"
-    "ACF Field Message":
+    "ACF Message Field":
         "prefix": "acf_field_message"
         "body": "array (\n    'key' => 'field_'.$acf_group.'_${1:field_name}',\n    'label' => '${2:field_label}',\n    'name' => '${1:field_name}',\n    'type' => 'message',\n    'instructions' => '',\n    'required' => 0,\n    'conditional_logic' => 0,\n    'wrapper' => array (\n        'width' => '',\n        'class' => '',\n        'id' => '',\n    ),\n    'message' => '',\n    'new_lines' => 'wpautop',    // wpautop | br | ''\n    'esc_html' => 0,             // uses the WordPress esc_html function\n),"
-    "ACF Field Number":
+    "ACF Number Field":
         "prefix": "acf_field_number"
         "body": "array (\n    'key' => 'field_'.$acf_group.'_${1:field_name}',\n    'label' => '${2:field_label}',\n    'name' => '${1:field_name}',\n    'type' => 'number',\n    'instructions' => '',\n    'required' => 0,\n    'conditional_logic' => 0,\n    'wrapper' => array (\n        'width' => '',\n        'class' => '',\n        'id' => '',\n    ),\n    'default_value' => '',\n    'placeholder' => '',\n    'prepend' => '',\n    'append' => '',\n    'min' => '',\n    'max' => '',\n    'step' => '',\n    'readonly' => 0,\n    'disabled' => 0,\n),"
-    "ACF Date Time Picker":
+    "ACF Date Time Field":
         "prefix": "acf_field_date_time"
         "body": "array (\n    'key' => 'field_'.$acf_group.'_${1:field_name}',\n    'label' => '${2:field_label}',\n    'name' => '${1:field_name}',\n    'type' => 'date_time_picker',\n    'instructions' => '',\n    'required' => 0,\n    'conditional_logic' => 0,\n    'wrapper' => array (\n        'width' => '',\n        'class' => '',\n        'id' => '',\n    ),\n    'field_type' => 'date_time',\n    'date_format' => 'm/d/y',\n    'time_format' => 'hh:mm tt',\n    'past_dates' => 'yes',\n    'time_selector' => 'slider',\n    'first_day' => 1,\n),"
-    "ACF Basic Loop":
+    "ACF Basic Repeater Loop":
         "prefix": "acf_loop_repeater"
         "body": "if( have_rows('${1:field_name}') ){\n    ?>\n\n    <?php\n    while ( have_rows('${1:field_name}') ){ the_row();\n    ?>\n\n    <?php\n        the_sub_field('${2:sub_field_name}');\n\n    }\n}"
