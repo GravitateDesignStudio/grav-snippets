@@ -80,3 +80,6 @@
     "ACF Basic Repeater Loop":
         "prefix": "acf_loop_repeater"
         "body": "if( have_rows('${1:field_name}') ){\n    ?>\n\n    <?php\n    while ( have_rows('${1:field_name}') ){ the_row();\n    ?>\n\n    <?php\n        the_sub_field('${2:sub_field_name}');\n\n    }\n}"
+    "ACF Conditional Logic":
+        "prefix": "acf_conditional"
+        "body": "array (\n    'status' => 1,\n    'rules' => array (\n        array (\n           'field' => ${1:the_field},\n            'operator' => '==',\n           'value' => ${2:the_field_value},\n      ),\n    ),\n    'allorany' => 'all',\n)"
