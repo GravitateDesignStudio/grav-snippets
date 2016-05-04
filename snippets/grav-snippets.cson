@@ -1,19 +1,20 @@
 # Sass Snippets
 '.source.scss':
-  'Media Min':
-    'prefix': 'mediaMin'
-    'body': '@include media-min(${1:\$medium}) {\n    ${2:}\n}'
-  'Media Max':
-    'prefix': 'mediaMax'
-    'body': '@include media-max(${1:\$medium}) {\n    ${2:}\n}'
-  'Comment':
-    'prefix': 'cmnt'
-    'body': '
-    /*************************************
-    \n
-    ${1:}
-    \n
-    **************************************/'
+    'Media Min':
+        'prefix': 'mediaMin'
+        'body': '@include media-min(${1:\$medium}) {\n    ${2:}\n}'
+    'Media Max':
+        'prefix': 'mediaMax'
+        'body': '@include media-max(${1:\$medium}) {\n    ${2:}\n}'
+    'Media Max Height':
+        'prefix': 'mediaMaxHeight'
+        'body': '@include media-max-height(${1:\$medium}) {\n    ${2:}\n}'
+    'Media Min Height':
+        'prefix': 'mediaMinHeight'
+        'body': '@include media-min-height(${1:\$medium}) {\n    ${2:}\n}'
+    'Comment':
+        'prefix': 'cmnt'
+        'body': '/*************************************\n${1:}\n**************************************/'
 
 # PHP Snippets
 ".source.php":
@@ -83,3 +84,6 @@
     "ACF Conditional Logic":
         "prefix": "acf_conditional"
         "body": "array (\n    'status' => 1,\n    'rules' => array (\n        array (\n           'field' => ${1:the_field},\n            'operator' => '==',\n           'value' => ${2:the_field_value},\n      ),\n    ),\n    'allorany' => 'all',\n)"
+    "ACF Color Field":
+        "prefix": "acf_field_color_picker"
+        "body":"array (\n    'key' => 'field_'.$acf_group.'_${1:field_name}',\n    'label' => '${2:field_label}',\n    'name' => '${1:field_name}',\n    'type' => 'color_picker',\n    'instructions' => '',\n    'required' => 0,\n    'conditional_logic' => 0,\n    'wrapper' => array (\n        'width' => '',\n        'class' => '',\n        'id' => '',\n    ),\n    'default_value' => '',\n),"
