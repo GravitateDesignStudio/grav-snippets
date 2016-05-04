@@ -9,12 +9,15 @@ _name : ```shortcut```_
 
 * Media Max : ```mediaMax```
 * Media Min : ```mediaMin```
+* Media Max Height : ```mediaMaxHeight```
+* Media Min Height : ```mediaMinHeight```
 * Comment : ```cmnt```
 
 ##### PHP Snippets #####
 
 _ACF Fields_
 * ACF Checkbox Field : ```acf_field_checkbox```
+* ACF Color Field : ```acf_field_color_picker```
 * ACF Date Field : ```acf_field_date```
 * ACF Date Time Field : ```acf_field_date_time```
 * ACF File Field : ```acf_field_file```
