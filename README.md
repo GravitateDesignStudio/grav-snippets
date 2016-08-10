@@ -37,6 +37,7 @@ _ACF Fields_
 * ACF True False Field : ```acf_field_true_false```
 * ACF User Field : ```acf_field_user```
 * ACF WYSIWYG Field : ```acf_field_wysiwyg```
+* ACF Clone Field : ```acf_field_clone```
 
 _ACF Helper Snippets_
 * ACF Basic Repeater Loop : ```acf_loop_repeater```
