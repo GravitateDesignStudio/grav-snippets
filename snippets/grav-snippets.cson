@@ -87,3 +87,6 @@
     "ACF Color Field":
         "prefix": "acf_field_color_picker"
         "body":"array (\n    'key' => 'field_'.$acf_group.'_${1:field_name}',\n    'label' => '${2:field_label}',\n    'name' => '${1:field_name}',\n    'type' => 'color_picker',\n    'instructions' => '',\n    'required' => 0,\n    'conditional_logic' => 0,\n    'wrapper' => array (\n        'width' => '',\n        'class' => '',\n        'id' => '',\n    ),\n    'default_value' => '',\n),"
+    "ACF Clone Field":
+        "prefix": "acf_field_clone"
+        "body": "array (\n    'key' => 'field_'.$acf_group.'_${1:field_name}',\n    'label' => '${2:field_label}',\n    'name' => '${1:field_name}',\n    'type' => 'clone',\n    'instructions' => '',\n    'required' => 0,\n    'conditional_logic' => 0,\n    'wrapper' => array (\n        'width' => '',\n        'class' => '',\n        'id' => '',\n    ),\n    'clone' => array (\n        0 => '${3:field_x1}',\n    ),\n    'display' => 'seamless',\n    'layout' => 'block',\n    'prefix_label' => 1,\n    'prefix_name' => 1,\n),"
