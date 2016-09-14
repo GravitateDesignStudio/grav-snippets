@@ -78,7 +78,7 @@ Code Example
 
 ## SCSS Snippets
 
-#### Media Max : ```mediaMax```{#media-max}
+#### Media Max : ```mediaMax```(#media-max)
 Creates a max-width media query based off of a custom mixin
 ```
 @include media-max($medium) {
