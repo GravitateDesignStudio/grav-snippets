@@ -1,7 +1,7 @@
 {
   "name": "gravitate-snippets",
   "main": "./lib/gravitate-snippets",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "A set of snippets for multiple languages created by the Gravitate development team for use with the Atom editor.",
   "keywords": [],
   "repository": "https://github.com/GravitateDesignStudio/grav-snippets",
