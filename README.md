@@ -2,7 +2,7 @@
 
 A set of snippets for multiple languages created by the [Gravitate development](http://www.gravitatedesign.com) team for use with the Atom editor. Many of these snippets rely on either custom mixins or WordPress plugins such as Advanced Custom Fields (ACF).
 
-Currently the table of contents only works within [github readme](https://github.com/GravitateDesignStudio/grav-snippets). This is due to atom's readme generating different tags for it's heading that don't match to generated links. Once atom resolves this, this readme will be udpated to work here, until then you can use the [readme at github](https://github.com/GravitateDesignStudio/grav-snippets).
+Currently the table of contents only works within the [github readme](https://github.com/GravitateDesignStudio/grav-snippets). This is due to atom's readme generating different tags for it's headings that don't match up to generated links. Once atom resolves this, this readme will be udpated to work here, until then you can use the [readme at github](https://github.com/GravitateDesignStudio/grav-snippets).
 
 ----
 
