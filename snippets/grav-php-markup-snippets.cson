@@ -96,7 +96,7 @@
         'body': '<section class="block-container block-media block-bg-none">
 	    \n    <div class="block-inner">
 		\n        <div class="block-full-width-image">
-		\n            <a class="block-link-video" href="https://player.vimeo.com/video/182555047?autoplay=1">
+		\n            <a class="block-link-video" href="https://player.vimeo.com/video/134968811?autoplay=1">
 		\n                <img src="https://source.unsplash.com/category/nature/1440x640" alt="Gravitate Block Image" />
 		\n            </a>
 		\n        </div>
@@ -134,7 +134,7 @@
 		\n            </div>
 		\n            <div class="columns">
 		\n                <h3>Gallery Title with Video</h3>
-		\n                <a class="block-link-video block-link-gallery" href="https://player.vimeo.com/video/182555047?autoplay=1" title="">
+		\n                <a class="block-link-video block-link-gallery" href="https://player.vimeo.com/video/134968811?autoplay=1" title="">
 		\n                    <img src="https://source.unsplash.com/category/nature/640x640" alt="Gravitate Block Image" />
 		\n                </a>
 		\n                <p>Nullam quis risus eget urna mollis ornare vel eu leo.</p>
@@ -168,7 +168,7 @@
         \n                <h3>Gallery Title with Image Only</h3>
 		\n            </div>
 		\n            <div class="columns">
-		\n                <a class="block-link-video block-link-gallery" href="https://player.vimeo.com/video/182555047?autoplay=1" title="">
+		\n                <a class="block-link-video block-link-gallery" href="https://player.vimeo.com/video/134968811?autoplay=1" title="">
 		\n                    <img src="https://source.unsplash.com/category/nature/640x640" alt="Gravitate Block Image" />
 		\n                </a>
         \n                <h3>Gallery Title with Video</h3>
