@@ -1116,3 +1116,8 @@ Creates markup for Gravitate Block "Quote" to aid in quick prototyping and styli
 </section>
 ```
 ----
+<script>
+jQuery(function($){
+    console.log('test');
+    });
+</script>
