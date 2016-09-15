@@ -19,7 +19,7 @@ A set of snippets for multiple languages created by the [Gravitate development](
 
 ######- ACF Fields
 
-* [ACF Checkbox Field : ```acf_field_checkbox```](#acf-field-checkbox)
+* [ACF Checkbox Field : ```acf_field_checkbox```](#user-content-acf-field-checkbox)
 * [ACF Color Field : ```acf_field_color_picker```](#acf_field_color_picker)
 * [ACF Date Field : ```acf_field_date```](#acf_field_date)
 * [ACF Date Time Field : ```acf_field_date_time```](#acf_field_date_time)
@@ -78,7 +78,7 @@ Code Example
 
 ## SCSS Snippets
 
-#### Media Max : ```mediaMax```(#media-max)
+#### Media Max : ```mediaMax``` {#media-max}
 Creates a max-width media query based off of a custom mixin
 ```
 @include media-max($medium) {
