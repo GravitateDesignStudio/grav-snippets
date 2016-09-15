@@ -118,7 +118,7 @@ Creates a comment area
 ## PHP Snippets
 
 ###- ACF Fields
-#### ACF Checkbox Field : ```acf_field_checkbox``` {#acf-field-checkbox}
+<h4 id="acf-field-checkbox"> ACF Checkbox Field : ```acf_field_checkbox``` </h4>
 Creates an array for the ACF checkbox field. Tab options are variable name, field name and choices.
 
 [Checkbox Documentation](https://www.advancedcustomfields.com/resources/checkbox/)
