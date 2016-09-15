@@ -19,7 +19,7 @@ A set of snippets for multiple languages created by the [Gravitate development](
 
 ######- ACF Fields
 
-* [ACF Checkbox Field : ```acf_field_checkbox```](#user-content-acf-field-checkbox)
+* [ACF Checkbox Field : ```acf_field_checkbox```](#acf-checkbox-field--acf_field_checkbox-)
 * [ACF Color Field : ```acf_field_color_picker```](#acf_field_color_picker)
 * [ACF Date Field : ```acf_field_date```](#acf_field_date)
 * [ACF Date Time Field : ```acf_field_date_time```](#acf_field_date_time)
@@ -118,7 +118,7 @@ Creates a comment area
 ## PHP Snippets
 
 ###- ACF Fields
-#### ACF Checkbox Field : ```acf_field_checkbox``` <a id="acf-field-checkbox"></a>
+#### ACF Checkbox Field : ```acf_field_checkbox```
 Creates an array for the ACF checkbox field. Tab options are variable name, field name and choices.
 
 [Checkbox Documentation](https://www.advancedcustomfields.com/resources/checkbox/)
