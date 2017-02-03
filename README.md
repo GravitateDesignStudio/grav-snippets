@@ -26,6 +26,7 @@ Currently the table of contents only works within the [github readme](https://gi
 * [ACF Date Field : ```acf_field_date```](#user-content-acf-date-field--acf_field_date)
 * [ACF Date Time Field : ```acf_field_date_time```](#user-content-acf-date-time-field--acf_field_date_time)
 * [ACF File Field : ```acf_field_file```](#user-content-acf-file-field--acf_field_file)
+* [ACF Google Map Field : ```acf_field_google_map```](#user-content-acf-google-map-field--acf_field_google_map)
 * [ACF Image Field : ```acf_field_image```](#user-content-acf-image-field--acf_field_image)
 * [ACF Message Field : ```acf_field_message```](#user-content-acf-message-field--acf_field_message)
 * [ACF Number Field : ```acf_field_number```](#user-content-acf-number-field--acf_field_number)
@@ -37,6 +38,7 @@ Currently the table of contents only works within the [github readme](https://gi
 * [ACF Register Group : ```acf_group_register```](#user-content-acf-register-group--acf_group_register)
 * [ACF Select Field : ```acf_field_select```](#user-content-acf-select-field--acf_field_select)
 * [ACF Tab Field : ```acf_field_tab```](#user-content-acf-tab-field--acf_field_tab)
+* [ACF Taxonomy Field : ```acf_field_taxonomy```](#user-content-acf-taxonomy-field--acf_field_taxonomy)
 * [ACF Text Field : ```acf_field_text```](#user-content-acf-text-field--acf_field_text)
 * [ACF Textarea Field : ```acf_field_textarea```](#user-content-acf-textarea-field--acf_field_textarea)
 * [ACF True False Field : ```acf_field_true_false```](#user-content-acf-true-false-field--acf_field_true_false)
@@ -177,7 +179,7 @@ Creates an array for the ACF date picker field. Tab options are field name and f
 ```
 array (
    'key' => 'field_'.$acf_group.'_field_name',
-	'label' => 'field_label',
+   'label' => 'field_label',
    'name' => 'field_name',
    'type' => 'date_picker',
    'instructions' => '',
@@ -188,8 +190,8 @@ array (
        'class' => '',
        'id' => '',
    ),
-   'display_format' => 'dd/mm/yy',
-   'return_format' => 'yymmdd',
+   'display_format' => 'F j, Y',
+   'return_format' => 'Ymd',
    'first_day' => 0,            // 0 = Sunday, 1 = Monday Etc.
 ),
 ```
@@ -214,11 +216,11 @@ array (
         'id' => '',
     ),
     'field_type' => 'date_time',
-    'date_format' => 'm/d/y',
-    'time_format' => 'hh:mm tt',
+    'display_format' => 'F j, Y g:i a',
+    'return_format' => 'Ymd:u',
     'past_dates' => 'yes',
     'time_selector' => 'slider',
-    'first_day' => 1,
+    'first_day' => 0,
 ),
 ```
 ----
