@@ -84,3 +84,10 @@
     "ACF Google Map Field":
         "prefix": "acf_field_google_map"
         "body": "array (\n    'key' => 'field_'.$acf_group.'_${1:field_name}',\n    'label' => '${2:field_label}',\n    'name' => '${1:field_name}',\n    'type' => 'google_map',\n    'height' => 400,\n    'center_lat' => '45.622364',\n    'center_lng' => '-122.6485886',\n    'zoom' => 6,\n    'instructions' => '',\n    'required' => 1,\n    'conditional_logic' => 0,\n    'wrapper' => array (\n        'width' => '',\n        'class' => '',\n        'id' => '',\n    ),\n),"
+    "ACF Options Page":
+        "prefix": "acf_options_page"
+        "body": "acf_add_options_page(\n    array(\n        'page_title' => '${1:Global Options}',\n        'menu_title' => '',\n        'menu_slug' => '',\n        'capability' => 'edit_posts', \n        'position' => 2,                          // default is false\n        'parent_slug' => '',\n        'icon_url' => 'dashicons-gravitate',\n        'redirect' => true,                       // default is false\n        'post_id' => 'options',\n        'autoload' => true,\n    )\n);"
+    "ACF Options Sub Page":
+        "prefix": "acf_options_sub_page"
+        "body": "acf_add_options_page(\n    array(\n        'page_title' => '${1:Global Options Sub Page}',\n        'menu_title' => '',\n        'menu_slug' => '',\n        'capability' => 'edit_posts', \n        'position' => false,\n        'parent_slug' => '${2:acf-options-global-options}',\n        'icon_url' => false,\n        'redirect' => true,\n        'post_id' => 'options',\n        'autoload' => true,\n    )
+    	\n);"
