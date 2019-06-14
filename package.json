@@ -4,6 +4,14 @@
     "description": "A collection of snipptes for programatic ACF fields, Grav Blocks, JavaScript and SCSS.",
     "version": "0.1.1",
     "publisher": "gravitatedesignstudio",
+    "author": {
+        "name": "Gravitate Design Studio"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/GravitateDesignStudio/grav-snippets"
+    },
     "icon": "icon.png",
     "galleryBanner": {
         "color": "#bf2e55",
