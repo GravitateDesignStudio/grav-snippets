@@ -1,0 +1,27 @@
+{
+  "Media Min": {
+    "prefix": "mediaMin",
+    "body": "@include media-min(${1:\\$medium}) {\n    $2\n}",
+    "description": "Media Min"
+  },
+  "Media Max": {
+    "prefix": "mediaMax",
+    "body": "@include media-max(${1:\\$medium}) {\n    $2\n}",
+    "description": "Media Max"
+  },
+  "Media Max Height": {
+    "prefix": "mediaMaxHeight",
+    "body": "@include media-max-height(${1:\\$medium}) {\n    $2\n}",
+    "description": "Media Max Height"
+  },
+  "Media Min Height": {
+    "prefix": "mediaMinHeight",
+    "body": "@include media-min-height(${1:\\$medium}) {\n    $2\n}",
+    "description": "Media Min Height"
+  },
+  "Comment": {
+    "prefix": "cmnt",
+    "body": "/*************************************\n$1\n**************************************/",
+    "description": "Comment"
+  }
+}

@@ -1,8 +1,6 @@
-# gravitate-snippets package
+# gravitate-snippets extension
 
-A set of snippets for multiple languages created by the [Gravitate development](http://www.gravitatedesign.com) team for use with the Atom editor. Many of these snippets rely on either custom mixins or WordPress plugins such as Advanced Custom Fields (ACF).
-
-Currently the table of contents only works within the [github readme](https://github.com/GravitateDesignStudio/grav-snippets). This is due to atom's readme generating different tags for it's headings that don't match up to generated links. Once atom resolves this, this readme will be udpated to work here, until then you can use the [readme at github](https://github.com/GravitateDesignStudio/grav-snippets).
+A set of snippets for multiple languages created by the [Gravitate development](http://www.gravitatedesign.com) team for use with the VSCode editor. Many of these snippets rely on either custom mixins or WordPress plugins such as Advanced Custom Fields (ACF).
 
 ----
 
@@ -11,63 +9,63 @@ Currently the table of contents only works within the [github readme](https://gi
 
 ######- SCSS
 
-* [Media Max : ```mediaMax```](#user-content-media-max--mediamax)
-* [Media Min : ```mediaMin```](#user-content-media-min--mediamin)
-* [Media Max Height : ```mediaMaxHeight```](#user-content-media-max-height--mediamaxheight)
-* [Media Min Height : ```mediaMinHeight```](#user-content-media-min-height--mediaminheight)
-* [Comment : ```cmnt```](#user-content-comment--cmnt)
+* [Media Max : ```mediaMax```](#media-max--mediamax)
+* [Media Min : ```mediaMin```](#media-min--mediamin)
+* [Media Max Height : ```mediaMaxHeight```](#media-max-height--mediamaxheight)
+* [Media Min Height : ```mediaMinHeight```](#media-min-height--mediaminheight)
+* [Comment : ```cmnt```](#comment--cmnt)
 
 ##### PHP Snippets
 
 ######- ACF Fields
 
-* [ACF Checkbox Field : ```acf_field_checkbox```](#user-content-acf-checkbox-field--acf_field_checkbox)
-* [ACF Color Field : ```acf_field_color_picker```](#user-content-acf-color-field--acf_field_color_picker)
-* [ACF Date Field : ```acf_field_date```](#user-content-acf-date-field--acf_field_date)
-* [ACF Date Time Field : ```acf_field_date_time```](#user-content-acf-date-time-field--acf_field_date_time)
-* [ACF File Field : ```acf_field_file```](#user-content-acf-file-field--acf_field_file)
-* [ACF Google Map Field : ```acf_field_google_map```](#user-content-acf-google-map-field--acf_field_google_map)
-* [ACF Image Field : ```acf_field_image```](#user-content-acf-image-field--acf_field_image)
-* [ACF Message Field : ```acf_field_message```](#user-content-acf-message-field--acf_field_message)
-* [ACF Number Field : ```acf_field_number```](#user-content-acf-number-field--acf_field_number)
-* [ACF Page Link Field : ```acf_field_page_link```](#user-content-acf-page-link-field--acf_field_page_link)
-* [ACF Post Object Field : ```acf_field_post_object```](#user-content-acf-post-object-field--acf_field_post_object)
-* [ACF Radio Button Field : ```acf_field_radio_button```](#user-content-acf-radio-button-field--acf_field_radio_button)
-* [ACF Repeater Field : ```acf_field_repeater```](#user-content-acf-repeater-field--acf_field_repeater)
-* [ACF Relationship Field : ```acf_field_relationship```](#user-content-acf-relationship-field--acf_field_relationship)
-* [ACF Register Group : ```acf_group_register```](#user-content-acf-register-group--acf_group_register)
-* [ACF Select Field : ```acf_field_select```](#user-content-acf-select-field--acf_field_select)
-* [ACF Tab Field : ```acf_field_tab```](#user-content-acf-tab-field--acf_field_tab)
-* [ACF Taxonomy Field : ```acf_field_taxonomy```](#user-content-acf-taxonomy-field--acf_field_taxonomy)
-* [ACF Text Field : ```acf_field_text```](#user-content-acf-text-field--acf_field_text)
-* [ACF Textarea Field : ```acf_field_textarea```](#user-content-acf-textarea-field--acf_field_textarea)
-* [ACF True False Field : ```acf_field_true_false```](#user-content-acf-true-false-field--acf_field_true_false)
-* [ACF User Field : ```acf_field_user```](#user-content-acf-user-field--acf_field_user)
-* [ACF WYSIWYG Field : ```acf_field_wysiwyg```](#user-content-acf-wysiwyg-field--acf_field_wysiwyg)
-* [ACF Clone Field : ```acf_field_clone```](#user-content-acf-clone-field--acf_field_clone)
+* [ACF Checkbox Field : ```acf_field_checkbox```](#acf-checkbox-field--acf_field_checkbox)
+* [ACF Color Field : ```acf_field_color_picker```](#acf-color-field--acf_field_color_picker)
+* [ACF Date Field : ```acf_field_date```](#acf-date-field--acf_field_date)
+* [ACF Date Time Field : ```acf_field_date_time```](#acf-date-time-field--acf_field_date_time)
+* [ACF File Field : ```acf_field_file```](#acf-file-field--acf_field_file)
+* [ACF Google Map Field : ```acf_field_google_map```](#acf-google-map-field--acf_field_google_map)
+* [ACF Image Field : ```acf_field_image```](#acf-image-field--acf_field_image)
+* [ACF Message Field : ```acf_field_message```](#acf-message-field--acf_field_message)
+* [ACF Number Field : ```acf_field_number```](#acf-number-field--acf_field_number)
+* [ACF Page Link Field : ```acf_field_page_link```](#acf-page-link-field--acf_field_page_link)
+* [ACF Post Object Field : ```acf_field_post_object```](#acf-post-object-field--acf_field_post_object)
+* [ACF Radio Button Field : ```acf_field_radio_button```](#acf-radio-button-field--acf_field_radio_button)
+* [ACF Repeater Field : ```acf_field_repeater```](#acf-repeater-field--acf_field_repeater)
+* [ACF Relationship Field : ```acf_field_relationship```](#acf-relationship-field--acf_field_relationship)
+* [ACF Register Group : ```acf_group_register```](#acf-register-group--acf_group_register)
+* [ACF Select Field : ```acf_field_select```](#acf-select-field--acf_field_select)
+* [ACF Tab Field : ```acf_field_tab```](#acf-tab-field--acf_field_tab)
+* [ACF Taxonomy Field : ```acf_field_taxonomy```](#acf-taxonomy-field--acf_field_taxonomy)
+* [ACF Text Field : ```acf_field_text```](#acf-text-field--acf_field_text)
+* [ACF Textarea Field : ```acf_field_textarea```](#acf-textarea-field--acf_field_textarea)
+* [ACF True False Field : ```acf_field_true_false```](#acf-true-false-field--acf_field_true_false)
+* [ACF User Field : ```acf_field_user```](#acf-user-field--acf_field_user)
+* [ACF WYSIWYG Field : ```acf_field_wysiwyg```](#acf-wysiwyg-field--acf_field_wysiwyg)
+* [ACF Clone Field : ```acf_field_clone```](#acf-clone-field--acf_field_clone)
 
 ######- ACF Helper Snippets
-* [ACF Basic Repeater Loop : ```acf_loop_repeater```](#user-content-acf-basic-repeater-loop--acf_loop_repeater)
+* [ACF Basic Repeater Loop : ```acf_loop_repeater```](#acf-basic-repeater-loop--acf_loop_repeater)
 
 
 ##### Markup Snippets
 
 ######- Gravitate Blocks
-* [Grav Blocks Call To Action : ```grav_blocks_call_to_action```](#user-content-grav-blocks-call-to-action--grav_blocks_call_to_action)
-* [Grav Blocks Content 1 Column : ```grav_blocks_content_col_1```](#user-content-grav-blocks-content-1-column--grav_blocks_content_col_1)
-* [Grav Blocks Content 2 Column : ```grav_blocks_content_col_2```](#user-content-grav-blocks-content-2-column--grav_blocks_content_col_2)
-* [Grav Blocks Content 3 Column : ```grav_blocks_content_col_3```](#user-content-grav-blocks-content-3-column--grav_blocks_content_col_3)
-* [Grav Blocks Media Content Image Left : ```grav_blocks_content_media_left```](#user-content-grav-blocks-media-content-image-left--grav_blocks_content_media_left)
-* [Grav Blocks Media Content Image Right : ```grav_blocks_content_media_right```](#user-content-grav-blocks-media-content-image-right--grav_blocks_content_media_right)
-* [Grav Blocks Media : ```grav_blocks_media```](#user-content-grav-blocks-media--grav_blocks_media)
-* [Grav Blocks Media with Padding : ```grav_blocks_media_padding```](#user-content-grav-blocks-media-with-padding--grav_blocks_media_padding)
-* [Grav Blocks Media Gallery : ```grav_blocks_media_gallery```](#user-content-grav-blocks-media-gallery--grav_blocks_media_gallery)
-* [Grav Blocks Media Gallery Title Below Image : ```grav_blocks_media_gallery_title_below```](#user-content-grav-blocks-media-gallery-title-below-image--grav_blocks_media_gallery_title_below)
-* [Grav Blocks Title : ```grav_blocks_title```](#user-content-grav-blocks-title--grav_blocks_title)
-* [Grav Blocks Title Centered : ```grav_blocks_title```](#user-content-grav-blocks-title-centered--grav_blocks_title_centered)
-* [Grav Blocks Quote : ```grav_blocks_quote```](#user-content-grav-blocks-quote--grav_blocks_quote)
-* [Grav Blocks Quote Centered : ```grav_blocks_quote_centered```](#user-content-grav-blocks-quote-centered--grav_blocks_quote_centered)
-* [Grav Blocks Testimonials : ```grav_blocks_testimonials```](#user-content-grav-blocks-testimonials--grav_blocks_testimonials)
+* [Grav Blocks Call To Action : ```grav_blocks_call_to_action```](#grav-blocks-call-to-action--grav_blocks_call_to_action)
+* [Grav Blocks Content 1 Column : ```grav_blocks_content_col_1```](#grav-blocks-content-1-column--grav_blocks_content_col_1)
+* [Grav Blocks Content 2 Column : ```grav_blocks_content_col_2```](#grav-blocks-content-2-column--grav_blocks_content_col_2)
+* [Grav Blocks Content 3 Column : ```grav_blocks_content_col_3```](#grav-blocks-content-3-column--grav_blocks_content_col_3)
+* [Grav Blocks Media Content Image Left : ```grav_blocks_content_media_left```](#grav-blocks-media-content-image-left--grav_blocks_content_media_left)
+* [Grav Blocks Media Content Image Right : ```grav_blocks_content_media_right```](#grav-blocks-media-content-image-right--grav_blocks_content_media_right)
+* [Grav Blocks Media : ```grav_blocks_media```](#grav-blocks-media--grav_blocks_media)
+* [Grav Blocks Media with Padding : ```grav_blocks_media_padding```](#grav-blocks-media-with-padding--grav_blocks_media_padding)
+* [Grav Blocks Media Gallery : ```grav_blocks_media_gallery```](#grav-blocks-media-gallery--grav_blocks_media_gallery)
+* [Grav Blocks Media Gallery Title Below Image : ```grav_blocks_media_gallery_title_below```](#grav-blocks-media-gallery-title-below-image--grav_blocks_media_gallery_title_below)
+* [Grav Blocks Title : ```grav_blocks_title```](#grav-blocks-title--grav_blocks_title)
+* [Grav Blocks Title Centered : ```grav_blocks_title```](#grav-blocks-title-centered--grav_blocks_title_centered)
+* [Grav Blocks Quote : ```grav_blocks_quote```](#grav-blocks-quote--grav_blocks_quote)
+* [Grav Blocks Quote Centered : ```grav_blocks_quote_centered```](#grav-blocks-quote-centered--grav_blocks_quote_centered)
+* [Grav Blocks Testimonials : ```grav_blocks_testimonials```](#grav-blocks-testimonials--grav_blocks_testimonials)
 
 -----
 

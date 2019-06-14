@@ -1,13 +1,51 @@
 {
-  "name": "gravitate-snippets",
-  "main": "./lib/gravitate-snippets",
-  "version": "0.10.0",
-  "description": "A set of sadfadfadfnippets for multiple languages created by the Gravitate development team for use with the Atom editor.",
-  "keywords": [],
-  "repository": "https://github.com/GravitateDesignStudio/grav-snippets",
-  "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  },
-  "dependencies": {}
+    "name": "gravitate-snippets",
+    "displayName": "Gravitate Snippets",
+    "description": "A collection of snipptes for programatic ACF fields, Grav Blocks, JavaScript and SCSS.",
+    "version": "0.1.1",
+    "publisher": "gravitatedesignstudio",
+    "icon": "icon.png",
+    "galleryBanner": {
+        "color": "#bf2e55",
+        "theme": "dark"
+    },
+    "engines": {
+        "vscode": "^1.35.0"
+    },
+    "keywords": [
+        "php",
+        "scss",
+        "javascript"
+    ],
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/grav-block-snippets.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/grav-js-snippets.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/grav-acf-snippets.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/grav-block-snippets.json"
+            },
+            {
+                "language": "plaintext",
+                "path": "./snippets/grav-block-snippets.json"
+            },
+            {
+                "language": "scss",
+                "path": "./snippets/grav-scss-snippets.json"
+            }
+        ]
+    }
 }
