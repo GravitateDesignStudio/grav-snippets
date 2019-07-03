@@ -12,3 +12,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - New Icon
 - Updated extension information
+
+## [0.1.3] - 2019-07-02
+
+### Fixed
+
+- Fixed missing tab completion for mulitple ACF fields
