@@ -18,3 +18,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ### Fixed
 
 - Fixed missing tab completion for mulitple ACF fields
+
+## [0.1.4] - 2019-10-10
+
+### Fixed
+
+- Fixed issues with semi-colons and commas
+- Fixed issue where `acf_field_group` was loading the wrong array
