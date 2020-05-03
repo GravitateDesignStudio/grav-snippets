@@ -294,6 +294,26 @@
 		],
 		"description": "ACF Repeater Field"
 	},
+	"ACF Link Field": {
+		"prefix": "acf_field_link",
+		"body": [
+			"array (",
+			"\t'key' => 'field_'.\\$acf_group.'_${1:field_name}',",
+			"\t'label' => '${2:field_label}',",
+			"\t'name' => '${1:field_name}',",
+			"\t'type' => 'link',",
+			"\t'instructions' => '',",
+			"\t'required' => 0,",
+			"\t'conditional_logic' => 0,  //  acf_conditional",
+			"\t'wrapper' => array (",
+			"\t\t'width' => '',",
+			"\t\t'class' => '',",
+			"\t\t'id' => '',",
+			"\t),",
+			"\t'return_format' => 'array', // array, url"
+		],
+		"description": "ACF Page Link Field"
+	},
 	"ACF Page Link Field": {
 		"prefix": "acf_field_page_link",
 		"body": [

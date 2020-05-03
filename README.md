@@ -28,6 +28,7 @@ A set of snippets for multiple languages created by the [Gravitate development](
 * [ACF Image Field : ```acf_field_image```](#acf-image-field--acf_field_image)
 * [ACF Message Field : ```acf_field_message```](#acf-message-field--acf_field_message)
 * [ACF Number Field : ```acf_field_number```](#acf-number-field--acf_field_number)
+* [ACF Link Field : ```acf_field_link```](#acf-link-field--acf_field_link)
 * [ACF Page Link Field : ```acf_field_page_link```](#acf-page-link-field--acf_field_page_link)
 * [ACF Post Object Field : ```acf_field_post_object```](#acf-post-object-field--acf_field_post_object)
 * [ACF Radio Button Field : ```acf_field_radio_button```](#acf-radio-button-field--acf_field_radio_button)
@@ -326,6 +327,28 @@ array (
     'step' => '',
     'readonly' => 0,
     'disabled' => 0,
+),
+```
+----
+#### ACF Link Field : ```acf_field_link```
+The Link field allows a link to be selected or defined (url, title, target) by using the native WordPress link popup.
+
+[Link Documentation](https://www.advancedcustomfields.com/resources/link/)
+```
+array (
+    'key' => 'field_'.$acf_group.'_field_name',
+    'label' => 'field_label',
+    'name' => 'field_name',
+    'type' => 'link',
+    'instructions' => '',
+    'required' => 0,
+    'conditional_logic' => 0,
+    'wrapper' => array (
+        'width' => '',
+        'class' => '',
+        'id' => '',
+    ),
+    'return_format' => 'array', // array, url
 ),
 ```
 ----
