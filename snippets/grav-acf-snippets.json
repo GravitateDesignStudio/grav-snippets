@@ -310,9 +310,10 @@
 			"\t\t'class' => '',",
 			"\t\t'id' => '',",
 			"\t),",
-			"\t'return_format' => 'array', // array, url"
+			"\t'return_format' => 'array', // array | url",
+			"),"
 		],
-		"description": "ACF Page Link Field"
+		"description": "ACF Link Field"
 	},
 	"ACF Page Link Field": {
 		"prefix": "acf_field_page_link",

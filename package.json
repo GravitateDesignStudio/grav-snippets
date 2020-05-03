@@ -2,7 +2,7 @@
     "name": "gravitate-snippets",
     "displayName": "Gravitate Snippets",
     "description": "A collection of snipptes for programatic ACF fields, Grav Blocks, JavaScript and SCSS.",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "publisher": "gravitatedesignstudio",
     "author": {
         "name": "Gravitate Design Studio"
@@ -29,8 +29,7 @@
         "Snippets"
     ],
     "contributes": {
-        "snippets": [
-            {
+        "snippets": [{
                 "language": "html",
                 "path": "./snippets/grav-block-snippets.json"
             },
