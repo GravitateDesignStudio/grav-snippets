@@ -6,6 +6,20 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.1.7] - 2023-02-27
+
+## Fixed
+
+- Changed variable from `$acf_field` to `$block`.
+- Prefixed the field name with  `$block`
+- Updated README.md
+
+## Added
+
+- ACF Group field for organizing subfields: `acf_field_group_field`
+    - Redundancy in the name to differentiate it from and Field Group.
+- ACF Gallery field: `acf_field_gallery`
+
 ## [0.1.6] - 2020-05-02
 
 ### Fixed

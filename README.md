@@ -9,69 +9,71 @@ A set of snippets for multiple languages created by the [Gravitate development](
 
 ######- SCSS
 
-* [Media Max : ```mediaMax```](#media-max--mediamax)
-* [Media Min : ```mediaMin```](#media-min--mediamin)
-* [Media Max Height : ```mediaMaxHeight```](#media-max-height--mediamaxheight)
-* [Media Min Height : ```mediaMinHeight```](#media-min-height--mediaminheight)
-* [Comment : ```cmnt```](#comment--cmnt)
+* [Media Max : `mediaMax`](#media-max--mediamax)
+* [Media Min : `mediaMin`](#media-min--mediamin)
+* [Media Max Height : `mediaMaxHeight`](#media-max-height--mediamaxheight)
+* [Media Min Height : `mediaMinHeight`](#media-min-height--mediaminheight)
+* [Comment : `cmnt`](#comment--cmnt)
 
 ##### PHP Snippets
 
 ######- ACF Fields
 
-* [ACF Checkbox Field : ```acf_field_checkbox```](#acf-checkbox-field--acf_field_checkbox)
-* [ACF Color Field : ```acf_field_color_picker```](#acf-color-field--acf_field_color_picker)
-* [ACF Date Field : ```acf_field_date```](#acf-date-field--acf_field_date)
-* [ACF Date Time Field : ```acf_field_date_time```](#acf-date-time-field--acf_field_date_time)
-* [ACF File Field : ```acf_field_file```](#acf-file-field--acf_field_file)
-* [ACF Google Map Field : ```acf_field_google_map```](#acf-google-map-field--acf_field_google_map)
-* [ACF Image Field : ```acf_field_image```](#acf-image-field--acf_field_image)
-* [ACF Message Field : ```acf_field_message```](#acf-message-field--acf_field_message)
-* [ACF Number Field : ```acf_field_number```](#acf-number-field--acf_field_number)
-* [ACF Link Field : ```acf_field_link```](#acf-link-field--acf_field_link)
-* [ACF Page Link Field : ```acf_field_page_link```](#acf-page-link-field--acf_field_page_link)
-* [ACF Post Object Field : ```acf_field_post_object```](#acf-post-object-field--acf_field_post_object)
-* [ACF Radio Button Field : ```acf_field_radio_button```](#acf-radio-button-field--acf_field_radio_button)
-* [ACF Repeater Field : ```acf_field_repeater```](#acf-repeater-field--acf_field_repeater)
-* [ACF Relationship Field : ```acf_field_relationship```](#acf-relationship-field--acf_field_relationship)
-* [ACF Register Group : ```acf_group_register```](#acf-register-group--acf_group_register)
-* [ACF Select Field : ```acf_field_select```](#acf-select-field--acf_field_select)
-* [ACF Tab Field : ```acf_field_tab```](#acf-tab-field--acf_field_tab)
-* [ACF Taxonomy Field : ```acf_field_taxonomy```](#acf-taxonomy-field--acf_field_taxonomy)
-* [ACF Text Field : ```acf_field_text```](#acf-text-field--acf_field_text)
-* [ACF Textarea Field : ```acf_field_textarea```](#acf-textarea-field--acf_field_textarea)
-* [ACF True False Field : ```acf_field_true_false```](#acf-true-false-field--acf_field_true_false)
-* [ACF User Field : ```acf_field_user```](#acf-user-field--acf_field_user)
-* [ACF WYSIWYG Field : ```acf_field_wysiwyg```](#acf-wysiwyg-field--acf_field_wysiwyg)
-* [ACF Clone Field : ```acf_field_clone```](#acf-clone-field--acf_field_clone)
+* [ACF Checkbox Field : `acf_field_checkbox`](#acf-checkbox-field--acf_field_checkbox)
+* [ACF Color Field : `acf_field_color_picker`](#acf-color-field--acf_field_color_picker)
+* [ACF Date Field : `acf_field_date`](#acf-date-field--acf_field_date)
+* [ACF Date Time Field : `acf_field_date_time`](#acf-date-time-field--acf_field_date_time)
+* [ACF File Field : `acf_field_file`](#acf-file-field--acf_field_file)
+* [ACF Google Map Field : `acf_field_google_map`](#acf-google-map-field--acf_field_google_map)
+* [ACF Gallery Field : `acf_field_gallery`](#acf-gallery-field--acf_field_gallery)
+* [ACF Group Field : `acf_field_group_field`](#acf-group-field--acf_field_group_field)
+* [ACF Image Field : `acf_field_image`](#acf-image-field--acf_field_image)
+* [ACF Message Field : `acf_field_message`](#acf-message-field--acf_field_message)
+* [ACF Number Field : `acf_field_number`](#acf-number-field--acf_field_number)
+* [ACF Link Field : `acf_field_link`](#acf-link-field--acf_field_link)
+* [ACF Page Link Field : `acf_field_page_link`](#acf-page-link-field--acf_field_page_link)
+* [ACF Post Object Field : `acf_field_post_object`](#acf-post-object-field--acf_field_post_object)
+* [ACF Radio Button Field : `acf_field_radio_button`](#acf-radio-button-field--acf_field_radio_button)
+* [ACF Repeater Field : `acf_field_repeater`](#acf-repeater-field--acf_field_repeater)
+* [ACF Relationship Field : `acf_field_relationship`](#acf-relationship-field--acf_field_relationship)
+* [ACF Register Group : `acf_group_register`](#acf-register-group--acf_group_register)
+* [ACF Select Field : `acf_field_select`](#acf-select-field--acf_field_select)
+* [ACF Tab Field : `acf_field_tab`](#acf-tab-field--acf_field_tab)
+* [ACF Taxonomy Field : `acf_field_taxonomy`](#acf-taxonomy-field--acf_field_taxonomy)
+* [ACF Text Field : `acf_field_text`](#acf-text-field--acf_field_text)
+* [ACF Textarea Field : `acf_field_textarea`](#acf-textarea-field--acf_field_textarea)
+* [ACF True False Field : `acf_field_true_false`](#acf-true-false-field--acf_field_true_false)
+* [ACF User Field : `acf_field_user`](#acf-user-field--acf_field_user)
+* [ACF WYSIWYG Field : `acf_field_wysiwyg`](#acf-wysiwyg-field--acf_field_wysiwyg)
+* [ACF Clone Field : `acf_field_clone`](#acf-clone-field--acf_field_clone)
 
 ######- ACF Helper Snippets
-* [ACF Basic Repeater Loop : ```acf_loop_repeater```](#acf-basic-repeater-loop--acf_loop_repeater)
+* [ACF Basic Repeater Loop : `acf_loop_repeater`](#acf-basic-repeater-loop--acf_loop_repeater)
 
 
 ##### Markup Snippets
 
 ######- Gravitate Blocks
-* [Grav Blocks Call To Action : ```grav_blocks_call_to_action```](#grav-blocks-call-to-action--grav_blocks_call_to_action)
-* [Grav Blocks Content 1 Column : ```grav_blocks_content_col_1```](#grav-blocks-content-1-column--grav_blocks_content_col_1)
-* [Grav Blocks Content 2 Column : ```grav_blocks_content_col_2```](#grav-blocks-content-2-column--grav_blocks_content_col_2)
-* [Grav Blocks Content 3 Column : ```grav_blocks_content_col_3```](#grav-blocks-content-3-column--grav_blocks_content_col_3)
-* [Grav Blocks Media Content Image Left : ```grav_blocks_content_media_left```](#grav-blocks-media-content-image-left--grav_blocks_content_media_left)
-* [Grav Blocks Media Content Image Right : ```grav_blocks_content_media_right```](#grav-blocks-media-content-image-right--grav_blocks_content_media_right)
-* [Grav Blocks Media : ```grav_blocks_media```](#grav-blocks-media--grav_blocks_media)
-* [Grav Blocks Media with Padding : ```grav_blocks_media_padding```](#grav-blocks-media-with-padding--grav_blocks_media_padding)
-* [Grav Blocks Media Gallery : ```grav_blocks_media_gallery```](#grav-blocks-media-gallery--grav_blocks_media_gallery)
-* [Grav Blocks Media Gallery Title Below Image : ```grav_blocks_media_gallery_title_below```](#grav-blocks-media-gallery-title-below-image--grav_blocks_media_gallery_title_below)
-* [Grav Blocks Title : ```grav_blocks_title```](#grav-blocks-title--grav_blocks_title)
-* [Grav Blocks Title Centered : ```grav_blocks_title```](#grav-blocks-title-centered--grav_blocks_title_centered)
-* [Grav Blocks Quote : ```grav_blocks_quote```](#grav-blocks-quote--grav_blocks_quote)
-* [Grav Blocks Quote Centered : ```grav_blocks_quote_centered```](#grav-blocks-quote-centered--grav_blocks_quote_centered)
-* [Grav Blocks Testimonials : ```grav_blocks_testimonials```](#grav-blocks-testimonials--grav_blocks_testimonials)
+* [Grav Blocks Call To Action : `grav_blocks_call_to_action`](#grav-blocks-call-to-action--grav_blocks_call_to_action)
+* [Grav Blocks Content 1 Column : `grav_blocks_content_col_1`](#grav-blocks-content-1-column--grav_blocks_content_col_1)
+* [Grav Blocks Content 2 Column : `grav_blocks_content_col_2`](#grav-blocks-content-2-column--grav_blocks_content_col_2)
+* [Grav Blocks Content 3 Column : `grav_blocks_content_col_3`](#grav-blocks-content-3-column--grav_blocks_content_col_3)
+* [Grav Blocks Media Content Image Left : `grav_blocks_content_media_left`](#grav-blocks-media-content-image-left--grav_blocks_content_media_left)
+* [Grav Blocks Media Content Image Right : `grav_blocks_content_media_right`](#grav-blocks-media-content-image-right--grav_blocks_content_media_right)
+* [Grav Blocks Media : `grav_blocks_media`](#grav-blocks-media--grav_blocks_media)
+* [Grav Blocks Media with Padding : `grav_blocks_media_padding`](#grav-blocks-media-with-padding--grav_blocks_media_padding)
+* [Grav Blocks Media Gallery : `grav_blocks_media_gallery`](#grav-blocks-media-gallery--grav_blocks_media_gallery)
+* [Grav Blocks Media Gallery Title Below Image : `grav_blocks_media_gallery_title_below`](#grav-blocks-media-gallery-title-below-image--grav_blocks_media_gallery_title_below)
+* [Grav Blocks Title : `grav_blocks_title`](#grav-blocks-title--grav_blocks_title)
+* [Grav Blocks Title Centered : `grav_blocks_title`](#grav-blocks-title-centered--grav_blocks_title_centered)
+* [Grav Blocks Quote : `grav_blocks_quote`](#grav-blocks-quote--grav_blocks_quote)
+* [Grav Blocks Quote Centered : `grav_blocks_quote_centered`](#grav-blocks-quote-centered--grav_blocks_quote_centered)
+* [Grav Blocks Testimonials : `grav_blocks_testimonials`](#grav-blocks-testimonials--grav_blocks_testimonials)
 
 -----
 
 ### Example
-##### _example_name : ```shortcut```_
+##### _example_name : `shortcut`_
 Description of snippet and usage. The tab options are what you can tab to and be able to change quickly.
 ```
 Code Example
@@ -81,35 +83,35 @@ Code Example
 
 ## SCSS Snippets
 
-#### Media Max : ```mediaMax```
+#### Media Max : `mediaMax`
 Creates a max-width media query based off of a custom mixin
 ```
 @include media-max($medium) {
 }
 ```
 ----
-#### Media Min : ```mediaMin```
+#### Media Min : `mediaMin`
 Creates a min-width media query based off of a custom mixin
 ```
 @include media-min($medium) {
 }
 ```
 ----
-#### Media Max Height : ```mediaMaxHeight```
+#### Media Max Height : `mediaMaxHeight`
 Creates a max-height media query based off of a custom mixin
 ```
 @include media-max-height($medium) {
 }
 ```
 ----
-#### Media Min Height : ```mediaMinHeight```
+#### Media Min Height : `mediaMinHeight`
 Creates a min-height media query based off of a custom mixin
 ```
 @include media-max-height($medium) {
 }
 ```
 ----
-#### Comment : ```cmnt```
+#### Comment : `cmnt`
 Creates a comment area
 ```
 /*************************************
@@ -121,15 +123,15 @@ Creates a comment area
 ## PHP Snippets
 
 ###- ACF Fields
-#### ACF Checkbox Field : ```acf_field_checkbox```
+#### ACF Checkbox Field : `acf_field_checkbox`
 Creates an array for the ACF checkbox field. Tab options are variable name, field name and choices.
 
 [Checkbox Documentation](https://www.advancedcustomfields.com/resources/checkbox/)
 ```
 array (
-    'key' => 'field_'.$acf_group.'_field_name',
+    'key' => 'field_'.$block.'_field_name',
     'label' => 'field_label',
-    'name' => 'field_name',
+    'name' => $block.'_field_name',
     'type' => 'checkbox',
     'instructions' => '',
     'required' => 0,
@@ -149,15 +151,15 @@ array (
 ),
 ```
 ----
-#### ACF Color Field : ```acf_field_color_picker```
+#### ACF Color Field : `acf_field_color_picker`
 Creates an array for the ACF color picker field. Tab options are field name and field label.
 
 [Color Picker Documentation](https://www.advancedcustomfields.com/resources/color-picker/)
 ```
 array (
-    'key' => 'field_'.$acf_group.'_field_name',
+    'key' => 'field_'.$block.'_field_name',
     'label' => 'field_label',
-    'name' => 'field_name',
+    'name' => $block.'_field_name',
     'type' => 'color_picker',
     'instructions' => '',
     'required' => 0,
@@ -171,15 +173,15 @@ array (
 ),
 ```
 ----
-#### ACF Date Field : ```acf_field_date```
+#### ACF Date Field : `acf_field_date`
 Creates an array for the ACF date picker field. Tab options are field name and field label.
 
 [Date Documentation](https://www.advancedcustomfields.com/resources/date-picker/)
 ```
 array (
-   'key' => 'field_'.$acf_group.'_field_name',
+   'key' => 'field_'.$block.'_field_name',
    'label' => 'field_label',
-   'name' => 'field_name',
+   'name' => $block.'_field_name',
    'type' => 'date_picker',
    'instructions' => '',
    'required' => 0,
@@ -196,15 +198,15 @@ array (
 ```
 ----
 
-#### ACF Date Time Field : ```acf_field_date_time```
+#### ACF Date Time Field : `acf_field_date_time`
 Creates an array for the ACF date and time picker field. Tab options are field name and field label.
 
 [Date Time Documentation](https://www.advancedcustomfields.com/resources/date-time-picker/)
 ```
 array (
-    'key' => 'field_'.$acf_group.'_field_name',
+    'key' => 'field_'.$block.'_field_name',
     'label' => 'field_label',
-    'name' => 'field_name',
+    'name' => $block.'_field_name',
     'type' => 'date_time_picker',
     'instructions' => '',
     'required' => 0,
@@ -223,15 +225,15 @@ array (
 ),
 ```
 ----
-#### ACF File Field : ```acf_field_file```
+#### ACF File Field : `acf_field_file`
 Creates an array for the ACF file field. Tab options are field name and field label.
 
 [File Documentation](https://www.advancedcustomfields.com/resources/file/)
 ```
 array (
-    'key' => 'field_'.$acf_group.'_field_name',
+    'key' => 'field_'.$block.'_field_name',
     'label' => 'field_label',
-    'name' => 'field_name',
+    'name' => $block.'_field_name',
     'type' => 'file',
     'instructions' => '',
     'required' => 0,
@@ -249,15 +251,15 @@ array (
 ),
 ```
 ----
-#### ACF Image Field : ```acf_field_image```
+#### ACF Image Field : `acf_field_image`
 Creates an array for the ACF image field. Tab options are field name and field label.
 
 [Image Documentation](https://www.advancedcustomfields.com/resources/image/)
 ```
 array (
-    'key' => 'field_'.$acf_group.'_field_name',
+    'key' => 'field_'.$block.'_field_name',
     'label' => 'field_label',
-    'name' => 'field_name',
+    'name' => $block.'_field_name',
     'instructions' => '',
     'type' => 'image',
     'required' => 0,
@@ -280,13 +282,59 @@ array (
 ),
 ```
 ----
-#### ACF Message Field : ```acf_field_message```
+#### ACF Gallery Field : `acf_field_gallery`
+Creates an array for the ACF group field. Tab options are field name and field label.
+```
+array (
+    'key' => 'field_'.$block.'_field_name',
+    'label' => 'field_label',
+    'name' => $block.'_field_name',
+    'type' => 'gallery',
+    'instructions' => '',
+    'required' => 0,
+    'conditional_logic' => 0,
+    'wrapper' => array (
+        'width' => '',
+        'class' => '',
+        'id' => '',
+    ),
+    'preview_size' => 'thumbnail',
+    'min_width' => '',
+    'min_height' => '',
+    'min_size' => '',
+    'max_width' => '',
+    'max_height' => '',
+    'max_size' => '',
+    'mime_types' => '',
+),
+```
+----
+#### ACF Group Field : `acf_field_group_field`
+Creates an array for the ACF group field. Tab options are field name and field label.
+```
+array (
+    'key' => 'field_'.$block.'_field_name',
+    'label' => 'field_label',
+    'name' => $block.'_field_name',
+    'type' => 'group',
+    'instructions' => '',
+    'required' => 0,
+    'conditional_logic' => 0,
+    'wrapper' => array (
+        'width' => '',
+        'class' => '',
+        'id' => '',
+    ),
+),
+```
+----
+#### ACF Message Field : `acf_field_message`
 Creates an array for the ACF message field. Tab options are field name and field label.
 ```
 array (
-    'key' => 'field_'.$acf_group.'_field_name',
+    'key' => 'field_'.$block.'_field_name',
     'label' => 'field_label',
-    'name' => 'field_name',
+    'name' => $block.'_field_name',
     'type' => 'message',
     'instructions' => '',
     'required' => 0,
@@ -302,13 +350,14 @@ array (
 ),
 ```
 ----
-#### ACF Number Field : ```acf_field_number```
+
+#### ACF Number Field : `acf_field_number`
 Creates an array for the ACF number field. Tab options are field name and field label.
 ```
 array (
-    'key' => 'field_'.$acf_group.'_field_name',
+    'key' => 'field_'.$block.'_field_name',
     'label' => 'field_label',
-    'name' => 'field_name',
+    'name' => $block.'_field_name',
     'type' => 'number',
     'instructions' => '',
     'required' => 0,
@@ -330,15 +379,15 @@ array (
 ),
 ```
 ----
-#### ACF Link Field : ```acf_field_link```
+#### ACF Link Field : `acf_field_link`
 The Link field allows a link to be selected or defined (url, title, target) by using the native WordPress link popup.
 
 [Link Documentation](https://www.advancedcustomfields.com/resources/link/)
 ```
 array (
-    'key' => 'field_'.$acf_group.'_field_name',
+    'key' => 'field_'.$block.'_field_name',
     'label' => 'field_label',
-    'name' => 'field_name',
+    'name' => $block.'_field_name',
     'type' => 'link',
     'instructions' => '',
     'required' => 0,
@@ -352,15 +401,15 @@ array (
 ),
 ```
 ----
-#### ACF Page Link Field : ```acf_field_page_link```
+#### ACF Page Link Field : `acf_field_page_link`
 Creates an array for the ACF page link field. Tab options are field name and field label.
 
 [Page Link Documentation](https://www.advancedcustomfields.com/resources/page-link/)
 ```
 array (
-    'key' => 'field_'.$acf_group.'_field_name',
+    'key' => 'field_'.$block.'_field_name',
     'label' => 'field_label',
-    'name' => 'field_name',
+    'name' => $block.'_field_name',
     'type' => 'page_link',
     'instructions' => '',
     'required' => 0,
@@ -379,15 +428,15 @@ array (
 ),
 ```
 ----
-#### ACF Post Object Field : ```acf_field_post_object```
+#### ACF Post Object Field : `acf_field_post_object`
 Creates an array for the ACF post object field. Tab options are field name and field label.
 
 [Post Object Documentation](https://www.advancedcustomfields.com/resources/post-object/)
 ```
 array (
-    'key' => 'field_'.$acf_group.'_field_name',
+    'key' => 'field_'.$block.'_field_name',
     'label' => 'field_label',
-    'name' => 'field_name',
+    'name' => $block.'_field_name',
     'type' => 'post_object',
     'instructions' => '',
     'required' => 0,
@@ -408,15 +457,15 @@ array (
 ),
 ```
 ----
-#### ACF Radio Button Field : ```acf_field_radio_button```
+#### ACF Radio Button Field : `acf_field_radio_button`
 Creates an array for the ACF radio button field. Tab options are field name, field label and choices.
 
 [Radio Button Documentation](https://www.advancedcustomfields.com/resources/radio-button/)
 ```
 array (
-    'key' => 'field_'.$acf_group.'_field_name',
+    'key' => 'field_'.$block.'_field_name',
     'label' => 'field_label',
-    'name' => 'field_name',
+    'name' => $block.'_field_name',
     'type' => 'radio',
     'instructions' => '',
     'required' => 0,
@@ -436,15 +485,15 @@ array (
 ),
 ```
 ---
-#### ACF Repeater Field : ```acf_field_repeater```
+#### ACF Repeater Field : `acf_field_repeater`
 Creates an array for the ACF repeater field. Tab options are field name, field label, admin button label ( Defaults to add_row_field ), and additional fields for the repeater.
 
 [Repeater Documentation](https://www.advancedcustomfields.com/resources/repeater/)
 ```
 array (
-    'key' => 'field_'.$acf_group.'_field_name',
+    'key' => 'field_'.$block.'_field_name',
     'label' => 'field_label',
-    'name' => 'field_name',
+    'name' => $block.'_field_name',
     'type' => 'repeater',
     'instructions' => '',
     'required' => 0,
@@ -465,15 +514,15 @@ array (
 ),
 ```
 ----
-#### ACF Relationship Field : ```acf_field_relationship```
+#### ACF Relationship Field : `acf_field_relationship`
 Creates an array for the ACF relationship field. Tab options are field name and field label.
 
 [Relationship Documentation](https://www.advancedcustomfields.com/resources/relationship/)
 ```
 array (
-    'key' => 'field_'.$acf_group.'_field_name',
+    'key' => 'field_'.$block.'_field_name',
     'label' => 'field_label',
-    'name' => 'field_name',
+    'name' => $block.'_field_name',
     'type' => 'relationship',
     'instructions' => '',
     'required' => 0,
@@ -499,7 +548,7 @@ array (
 ),
 ```
 ----
-#### ACF Register Group : ```acf_group_register```
+#### ACF Register Group : `acf_group_register`
 Creates the function for registering an ACF group. Tab options are group key, group title and fields.
 
 ```
@@ -547,15 +596,15 @@ acf_add_local_field_group(array (
 ));
 ```
 ----
-#### ACF Select Field : ```acf_field_select```
+#### ACF Select Field : `acf_field_select`
 Creates an array for the ACF select field. Tab options are field name, field label and choices.
 
 [Select Documentation](https://www.advancedcustomfields.com/resources/select/)
 ```
 array (
-    'key' => 'field_'.$acf_group.'_field_name',
+    'key' => 'field_'.$block.'_field_name',
     'label' => 'field_label',
-    'name' => 'field_name',
+    'name' => $block.'_field_name',
     'type' => 'select',
     'instructions' => '',
     'required' => 0,
@@ -580,15 +629,15 @@ array (
 ),
 ```
 ----
-#### ACF Tab Field : ```acf_field_tab```
+#### ACF Tab Field : `acf_field_tab`
 Creates an array for the ACF tab field. Tab options are field name and field label.
 
 [Tab Documentation](https://www.advancedcustomfields.com/resources/tab/)
 ```
 array (
-    'key' => 'field_'.$acf_group.'_field_name',
+    'key' => 'field_'.$block.'_field_name',
     'label' => 'field_label',
-    'name' => 'field_name',
+    'name' => $block.'_field_name',
     'type' => 'tab',
     'instructions' => '',
     'required' => 0,
@@ -603,15 +652,15 @@ array (
 ),
 ```
 ----
-#### ACF Text Field : ```acf_field_text```
+#### ACF Text Field : `acf_field_text`
 Creates an array for the ACF text field. Tab options are field name and field label.
 
 [Text Documentation](https://www.advancedcustomfields.com/resources/text/)
 ```
 array (
-    'key' => 'field_'.$acf_group.'_field_name',
+    'key' => 'field_'.$block.'_field_name',
     'label' => 'field_label',
-    'name' => 'field_name',
+    'name' => $block.'_field_name',
     'type' => 'text',
     'instructions' => '',
     'required' => 0,
@@ -632,15 +681,15 @@ array (
 ),
 ```
 ----
-#### ACF Textarea Field : ```acf_field_textarea```
+#### ACF Textarea Field : `acf_field_textarea`
 Creates an array for the ACF Textarea field. Tab options are field name and field label.
 
 [Textarea Documentation](https://www.advancedcustomfields.com/resources/textarea/)
 ```
 array (
-    'key' => 'field_'.$acf_group.'_field_name',
+    'key' => 'field_'.$block.'_field_name',
     'label' => 'field_label',
-    'name' => 'field_name',
+    'name' => $block.'_field_name',
     'type' => 'textarea',
     'instructions' => '',
     'required' => 0,
@@ -660,15 +709,15 @@ array (
 ),
 ```
 ----
-#### ACF True False Field : ```acf_field_true_false```
+#### ACF True False Field : `acf_field_true_false`
 Creates an array for the ACF true or false checkbox field. Tab options are field name and field label.
 
 [True/False Documentation](https://www.advancedcustomfields.com/resources/true-false/)
 ```
 array (
-   'key' => 'field_'.$acf_group.'_field_name',
+   'key' => 'field_'.$block.'_field_name',
    'label' => 'field_label',
-   'name' => 'field_name',
+   'name' => $block.'_field_name',
    'type' => 'true_false',
    'instructions' => '',
    'required' => 0,
@@ -683,13 +732,13 @@ array (
 ),
 ```
 ----
-#### ACF User Field : ```acf_field_user```
+#### ACF User Field : `acf_field_user`
 Creates an array for the ACF user field. Tab options are field name and field label.
 ```
 array (
-    'key' => 'field_'.$acf_group.'_field_name',
+    'key' => 'field_'.$block.'_field_name',
     'label' => 'field_label',
-    'name' => 'field_name',
+    'name' => $block.'_field_name',
     'type' => 'user',
     'instructions' => '',
     'required' => 0,
@@ -705,15 +754,15 @@ array (
 ),
 ```
 ----
-#### ACF WYSIWYG Field : ```acf_field_wysiwyg```
+#### ACF WYSIWYG Field : `acf_field_wysiwyg`
 Creates an array for the ACF WYSIWYG field. Tab options are field name and field label.
 
 [WYSIWYG Documentation](https://www.advancedcustomfields.com/resources/wysiwyg-editor/)
 ```
 array (
-    'key' => 'field_'.$acf_group.'_field_name',
+    'key' => 'field_'.$block.'_field_name',
     'label' => 'field_label',
-    'name' => 'field_name',
+    'name' => $block.'_field_name',
     'type' => 'wysiwyg',
     'instructions' => '',
     'required' => 0,
@@ -730,15 +779,15 @@ array (
 ),
 ```
 ----
-#### ACF Clone Field : ```acf_field_clone```
+#### ACF Clone Field : `acf_field_clone`
 Creates an array for the ACF WYSIWYG field. Tab options are field name, field label and clone array. The clone array currently uses the default for the Gravitate Blocks field.
 
 [Clone Documentation](https://www.advancedcustomfields.com/resources/clone/)
 ```
 array (
-    'key' => 'field_'.$acf_group.'_field_name',
+    'key' => 'field_'.$block.'_field_name',
     'label' => 'field_label',
-    'name' => 'field_name',
+    'name' => $block.'_field_name',
     'type' => 'clone',
     'instructions' => '',
     'required' => 0,
@@ -759,13 +808,13 @@ array (
 
 ```
 ----
-#### ACF Basic Repeater Loop : ```acf_loop_repeater```
+#### ACF Basic Repeater Loop : `acf_loop_repeater`
 Creates an ACF loop for rows and sub fields.
 
 [Repeater Loop Documentation](https://www.advancedcustomfields.com/resources/code-examples/)
 ```
-if( have_rows('field_name') ){ ?>
-    <?php while ( have_rows('field_name') ){ the_row(); ?>
+if( have_rows($block.'_field_name') ){ ?>
+    <?php while ( have_rows($block.'_field_name') ){ the_row(); ?>
     <?php
         the_sub_field('sub_field_name');
     }
@@ -778,7 +827,7 @@ if( have_rows('field_name') ){ ?>
 
 ###- Gravitate Blocks
 
-#### Grav Blocks Call To Action : ```grav_blocks_call_to_action```
+#### Grav Blocks Call To Action : `grav_blocks_call_to_action`
 Creates markup for Gravitate Block "Call To Action" to aid in quick prototyping and styling of default Gravitate blocks.
 ```
 <section class="block-container block-calltoaction">
@@ -794,7 +843,7 @@ Creates markup for Gravitate Block "Call To Action" to aid in quick prototyping 
 </section>
 ```
 ----
-#### Grav Blocks Content 1 Column : ```grav_blocks_content_col_1```
+#### Grav Blocks Content 1 Column : `grav_blocks_content_col_1`
 Creates markup for Gravitate Block "Content" to aid in quick prototyping and styling of default Gravitate blocks. This will produce one column.
 ```
 <section class='block-container block-content block-bg-none'>
@@ -809,7 +858,7 @@ Creates markup for Gravitate Block "Content" to aid in quick prototyping and sty
 </section>
 ```
 ----
-#### Grav Blocks Content 2 Column : ```grav_blocks_content_col_2```
+#### Grav Blocks Content 2 Column : `grav_blocks_content_col_2`
 Creates markup for Gravitate Block "Content" to aid in quick prototyping and styling of default Gravitate blocks. This will produce two columns.
 ```
 <section class='block-container block-content block-bg-none'>
@@ -828,7 +877,7 @@ Creates markup for Gravitate Block "Content" to aid in quick prototyping and sty
 </section>
 ```
 ----
-#### Grav Blocks Content 3 Column : ```grav_blocks_content_col_3```
+#### Grav Blocks Content 3 Column : `grav_blocks_content_col_3`
 Creates markup for Gravitate Block "Content" to aid in quick prototyping and styling of default Gravitate blocks. This will produce three columns.
 ```
 <section class='block-container block-content block-bg-none'>
@@ -851,7 +900,7 @@ Creates markup for Gravitate Block "Content" to aid in quick prototyping and sty
 </section>
 ```
 ----
-#### Grav Blocks Media Content Image Left : ```grav_blocks_content_media_left```
+#### Grav Blocks Media Content Image Left : `grav_blocks_content_media_left`
 Creates markup for Gravitate Block "Media Content" to aid in quick prototyping and styling of default Gravitate blocks. This will produce a WYSIWYG area on the right and an image on the left.
 ```
 <section class="block-container block-media-content block-bg-none">
@@ -872,7 +921,7 @@ Creates markup for Gravitate Block "Media Content" to aid in quick prototyping a
 </section>
 ```
 ----
-#### Grav Blocks Media Content Image Right : ```grav_blocks_content_media_right```
+#### Grav Blocks Media Content Image Right : `grav_blocks_content_media_right`
 Creates markup for Gravitate Block "Media Content" to aid in quick prototyping and styling of default Gravitate blocks. This will produce a WYSIWYG area on the left and an image on the right.
 ```
 <section class="block-container block-media-content block-bg-none">
@@ -893,7 +942,7 @@ Creates markup for Gravitate Block "Media Content" to aid in quick prototyping a
 </section>
 ```
 ----
-#### Grav Blocks Media : ```grav_blocks_media```
+#### Grav Blocks Media : `grav_blocks_media`
 Creates markup for Gravitate Block "Media" to aid in quick prototyping and styling of default Gravitate blocks.
 ```
 <section class="block-container block-media block-bg-none">
@@ -907,7 +956,7 @@ Creates markup for Gravitate Block "Media" to aid in quick prototyping and styli
 </section>
 ```
 ----
-#### Grav Blocks Media with Padding : ```grav_blocks_media_padding```
+#### Grav Blocks Media with Padding : `grav_blocks_media_padding`
 Creates markup for Gravitate Block "Media" to aid in quick prototyping and styling of default Gravitate blocks. This contains the image to the containment of a full width Foundation column.
 ```
 <section class="block-container block-media block-bg-none">
@@ -921,7 +970,7 @@ Creates markup for Gravitate Block "Media" to aid in quick prototyping and styli
 </section>
 ```
 ----
-#### Grav Blocks Media Gallery : ```grav_blocks_media_gallery```
+#### Grav Blocks Media Gallery : `grav_blocks_media_gallery`
 Creates markup for Gravitate Block "Media Gallery" to aid in quick prototyping and styling of default Gravitate blocks. This block includes 4 columns each with different options chosen to see different layout possibilities.
 ```
 <section class="block-container block-media-gallery block-bg-none">
@@ -960,7 +1009,7 @@ Creates markup for Gravitate Block "Media Gallery" to aid in quick prototyping a
 </section>
 ```
 ----
-#### Grav Blocks Media Gallery Title Below Image : ```grav_blocks_media_gallery_title_below```
+#### Grav Blocks Media Gallery Title Below Image : `grav_blocks_media_gallery_title_below`
 Creates markup for Gravitate Block "Media Gallery" to aid in quick prototyping and styling of default Gravitate blocks. This block includes 4 columns each with different options chosen to see different layout possibilities.
 
 This block also has the option chosen to place the titles below the images.
@@ -1001,7 +1050,7 @@ This block also has the option chosen to place the titles below the images.
 </section>
 ```
 ----
-#### Grav Blocks Title : ```grav_blocks_title```
+#### Grav Blocks Title : `grav_blocks_title`
 Creates markup for Gravitate Block "Title" to aid in quick prototyping and styling of default Gravitate blocks.
 ```
 <section class="block-container block-title block-bg-none">
@@ -1016,7 +1065,7 @@ Creates markup for Gravitate Block "Title" to aid in quick prototyping and styli
 </section>
 ```
 ----
-#### Grav Blocks Title Centered : ```grav_blocks_title_centered```
+#### Grav Blocks Title Centered : `grav_blocks_title_centered`
 Creates markup for Gravitate Block "Title" to aid in quick prototyping and styling of default Gravitate blocks. This variation shows the markup when the option to center the text is chosen.
 ```
 <section class="block-container block-title block-bg-none">
@@ -1031,7 +1080,7 @@ Creates markup for Gravitate Block "Title" to aid in quick prototyping and styli
 </section>
 ```
 ----
-#### Grav Blocks Quote : ```grav_blocks_quote```
+#### Grav Blocks Quote : `grav_blocks_quote`
 Creates markup for Gravitate Block "Quote" to aid in quick prototyping and styling of default Gravitate blocks.
 ```
 <section class="block-container block-quote block-bg-none">
@@ -1049,7 +1098,7 @@ Creates markup for Gravitate Block "Quote" to aid in quick prototyping and styli
 </section>
 ```
 ----
-#### Grav Blocks Quote Centered : ```grav_blocks_quote_centered```
+#### Grav Blocks Quote Centered : `grav_blocks_quote_centered`
 Creates markup for Gravitate Block "Quote" to aid in quick prototyping and styling of default Gravitate blocks. This variation shows the markup when the option to center the text is chosen.
 ```
 <section class="block-container block-quote block-bg-none">
@@ -1067,7 +1116,7 @@ Creates markup for Gravitate Block "Quote" to aid in quick prototyping and styli
 </section>
 ```
 ----
-#### Grav Blocks Testimonials : ```grav_blocks_testimonials```
+#### Grav Blocks Testimonials : `grav_blocks_testimonials`
 Creates markup for Gravitate Block "Quote" to aid in quick prototyping and styling of default Gravitate blocks. There are 4 slides built, each slide with different options chosen to show all possible layouts.
 ```
 <section class="block-container block-testimonials block-bg-none">
