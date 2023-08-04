@@ -6,15 +6,23 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.1.8] - 2023-08-04
+
+### Added 
+
+- ACF Button Group field: `acf_field_button_group`
+- ACF SVG Icon picker field snippet: `acf_field_svg_icon_picker`
+    (This field requires the use of a grav-blocks compatible theme that installs this custom field type)
+
 ## [0.1.7] - 2023-02-27
 
-## Fixed
+### Fixed
 
 - Changed variable from `$acf_field` to `$block`.
 - Prefixed the field name with  `$block`
 - Updated README.md
 
-## Added
+### Added
 
 - ACF Group field for organizing subfields: `acf_field_group_field`
     - Redundancy in the name to differentiate it from and Field Group.
