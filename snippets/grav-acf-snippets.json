@@ -211,6 +211,33 @@
 		],
 		"description": "ACF Radio Button Field"
 	},
+	"ACF Button Group Field": {
+		"prefix": "acf_field_button_group",
+		"body": [
+			"[",
+			"\t'key' => 'field_'.\\$block.'_${1:field_name}',",
+			"\t'label' => '${2:field_label}',",
+			"\t'name' => \\$block.'_${1:field_name}',",
+			"\t'type' => 'button_group',",
+			"\t'instructions' => '',",
+			"\t'required' => 0,",
+			"\t'conditional_logic' => 0,  //  acf_condtional",
+			"\t'wrapper' => array (",
+			"\t\t'width' => '',",
+			"\t\t'class' => '',",
+			"\t\t'id' => '',",
+			"\t),",
+			"\t'choices' => [",
+			"\t\t''=>'',*${3:3}",
+			"\t],",
+			"\t'other_choice' => 0,",
+			"\t'save_other_choice' => 0,",
+			"\t'default_value' => '',",
+			"\t'layout' => 'horizontal',",
+			"],"
+		],
+		"description": "ACF Button Group Field"
+	},
 	"ACF Checkbox Field": {
 		"prefix": "acf_field_checkbox",
 		"body": [
@@ -761,10 +788,13 @@
 			"\t\t'width' => '',",
 			"\t\t'class' => '',",
 			"\t\t'id' => '',",
+			"\t'layout' => 'table',  // table | block | row",
+			"\t'button_label' => 'add_row_field',",
+			"\t'sub_fields' => array (",
+			"\t\tsub_fields",
 			"\t),",
-			"),"
-		],
-		"description": "ACF Textarea Field"
+			"),"		],
+		"description": "ACF Group Field"
 	},
 	"ACF Options Page": {
 		"prefix": "acf_options_page",
@@ -805,5 +835,26 @@
 			");"
 		],
 		"description": "ACF Options Sub Page"
+	},
+	"ACF SVG Icon Picker": {
+		"prefix": "acf_field_svg_icon_picker",
+		"body": [
+			"array(",
+				"\t'key' => 'field_'.\\$block.'_${1:field_name}',",
+				"\t'label' => '${2:field_label}',",
+				"\t'name' => \\$block.'_${1:field_name}',",
+				"\t'type' => 'svg-icon-selector',",
+				"\t'instructions' => '',",
+				"\t'required' => 0,",
+				"\t'conditional_logic' => 0,",
+				"\t'wrapper' => array(",
+					"\t\t'width' => '',",
+					"\t\t'class' => '',",
+					"\t\t'id' => '',",
+				"\t),",
+				"\t'allow_none' => 1,",
+				"\t'svg_sub_dir' => 'icons',",
+			"),"
+		]
 	}
 }
